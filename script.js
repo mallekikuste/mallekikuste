@@ -97,11 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') closePopup();
   });
 
-  /* ==============================================
-     SLIDER DRAG / TOUCH SCROLL
-     Enables mouse drag on desktop and touch swipe on mobile.
-     Vertical swipes pass through to the page scroll normally.
-     ============================================== */
+ 
   const sliderSection = document.querySelector('.slider-section');
 
   if (sliderSection) {
